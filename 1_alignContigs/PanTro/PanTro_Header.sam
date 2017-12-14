@@ -48,4 +48,4 @@
 @SQ	SN:SISRS_contig-516000052	LN:3244
 @SQ	SN:SISRS_contig-213000151	LN:3375
 @SQ	SN:SISRS_contig-7764000036	LN:2698
-@PG	ID:bowtie2	PN:bowtie2	VN:2.3.2	CL:"/usr/bin/bowtie2-align-s --wrapper basic-0 -p 1 -N 1 --local -x /home/anders/code/sisrs/SISRS/pipeline_stages/1_alignContigs/premadeoutput/contigs -U /home/anders/code/sisrs/SISRS/pipeline_stages/1_alignContigs/PanTro/PanTro_R1.fastq,/home/anders/code/sisrs/SISRS/pipeline_stages/1_alignContigs/PanTro/PanTro_R2.fastq"
+@PG	ID:bowtie2	PN:bowtie2	VN:2.3.3.1	CL:"/home/anders/apps/bowtie2/bowtie2-align-s --wrapper basic-0 -p 1 -N 1 --local -x 1_alignContigs/premadeoutput/contigs -U 1_alignContigs/PanTro/PanTro_R1.fastq,1_alignContigs/PanTro/PanTro_R2.fastq"
