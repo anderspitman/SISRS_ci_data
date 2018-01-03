@@ -48,4 +48,4 @@
 @SQ	SN:SISRS_contig-516000052	LN:3244
 @SQ	SN:SISRS_contig-213000151	LN:3375
 @SQ	SN:SISRS_contig-7764000036	LN:2698
-@PG	ID:bowtie2	PN:bowtie2	VN:2.3.3.1	CL:"/home/anders/apps/bowtie2/bowtie2-align-s --wrapper basic-0 -p 1 -N 1 --local -x 1_alignContigs_1/premadeoutput/contigs -U 1_alignContigs_1/HomSap/HomSap_SE.fastq"
+@PG	ID:bowtie2	PN:bowtie2	VN:2.3.3.1	CL:"/bowtie2-2.3.3.1-linux-x86_64/bowtie2-align-s --wrapper basic-0 -p 1 -N 1 --local -x /SISRS/pipeline_stages/1_alignContigs/premadeoutput/contigs -U /SISRS/pipeline_stages/1_alignContigs/HomSap/HomSap_SE.fastq"
